@@ -22,6 +22,13 @@ The solver uses the **Backtracking Algorithm**, which:
 - Java
 - Java Swing (GUI)
 
+## Project Structure
+```
+Sudoku-Solver-Java/
+│
+├── SudokuSolverGUI.java
+├── README.md
+```
 ## How to Run
 1. Install JDK (Java 8 or above)
 2. Compile the program:
@@ -32,3 +39,13 @@ javac SudokuSolverGUI.java
 ```
 java SudokuSolverGUI
 ```
+
+## Usage
+
+-Enter numbers (1–9) in the grid
+
+-Leave empty cells blank
+
+-Click Solve to generate the solution
+
+-Click Clear to reset the grid
